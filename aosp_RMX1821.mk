@@ -20,7 +20,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_RMX1821
