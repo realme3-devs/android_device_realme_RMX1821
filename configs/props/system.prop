@@ -81,6 +81,3 @@ ro.zygote.preload.enable=0
 
 #Brightness
 persist.sys.brightness.low.gamma=true
-
-# FEAS
-ro.feas.enable=true
