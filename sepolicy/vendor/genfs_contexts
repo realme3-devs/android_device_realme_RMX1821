@@ -9,3 +9,8 @@ genfscon proc /oppoVersion                                    u:object_r:proc_op
 
 # OppoCustom Sensor
 genfscon proc /oppoCustom/Sensor                              u:object_r:proc_oppocustom_sensor:s0
+
+# FEAS
+genfscon sysfs /module/perfmgr                                u:object_r:sysfs_perfmgr:s0
+
+genfscon proc /perfmgr                                        u:object_r:proc_perfmgr:s0
