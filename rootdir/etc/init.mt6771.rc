@@ -109,7 +109,7 @@ on fs
     exec /system/bin/tune2fs -O has_journal -u 10010 -r 4096 /dev/block/platform/bootdevice/by-name/userdata
     write /sys/kernel/debug/tracing/trace_marker "E"
     write /proc/bootprof "INIT:Mount_END"
-    write /proc/sys/vm/swappiness 160
+    write /proc/sys/vm/swappiness 60
     write /sys/kernel/mm/swap/vma_ra_enabled false
     swapon_all /vendor/etc/fstab.mt6771
 
