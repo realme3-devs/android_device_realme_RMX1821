@@ -111,9 +111,10 @@ ro.vendor.mtk_modem_monitor_support=1
 ro.vendor.md_log_memdump_wait=15
 
 # Low Memory Killer
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=100
-ro.lmk.use_minfree_levels=true
+#ro.lmk.kill_heaviest_task=true
+#ro.lmk.kill_timeout_ms=100
+#ro.lmk.use_minfree_levels=true
+ro.lmk.log_stats=false
 
 # Media
 vendor.mtk.vdec.waitkeyframeforplay=7
